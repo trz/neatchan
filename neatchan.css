@@ -1,0 +1,107 @@
+/* FIRST  A BIG MOFO RESET THANKS TO ERIC MEYER */
+/* http://meyerweb.com/eric/tools/css/reset/  -   v2.0 | 20110126	-	License:none (public domain)  - TWEAKED by TRZ for ch4n.css .*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0 !important ;padding:0 !important ;border:0 !important  ;vertical-align:baseline !important ; background:none !important}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block !important }
+body{line-height:1 !important }
+ol,ul{list-style:none !important }
+blockquote,q{quotes:none  !important }
+blockquote:before,blockquote:after,
+q:before,q:after{content:'' !important ;content:none !important }
+table{border-collapse:collapse !important ;border-spacing:0 !important ;}
+
+
+
+
+
+
+
+body {background:#888 !important; font-size: 0.7em !important; line-height:120% !important ; font-family: 'lucida grande', helvetica, arial !important; }
+#boardNavDesktop, #boardNavDesktopFoot, #boardNavDesktop a , #boardNavDesktopFoot a {color:#fff !important; font-size:x-small !important;}
+#boardNavDesktop,#boardNavDesktopFoot {text-align:center !important}
+
+
+/* first the homepage */
+
+div.globalMessage {display:none;}
+div.postingMode {background:#888 !important; font-size:30px; float:left !important ;  font-weight:bold !important;}
+div.navLinks {display:none !important}
+
+div.boardBanner {clear:none !important; display:none !important}
+div.boardBanner img, div.boardTitle {display:none !important}
+
+
+div#doc {width:100% !important; }
+div#hd {display:none !important}
+div#bd {margin:0 10% !important}
+div#announce{color:#fff !important; margin:10px 10% !important}
+div#boards, div.yui-g {background:#eee !important; border-radius:10px !important; margin-bottom:10px !important; padding:10px !important}
+div.column {width:20% !important}
+div#preview-tooltip-ws, div#preview-tooltip-nws {background:#fff !important; padding:5px !important; border-radius:5px !important;box-shadow: 2px 2px 2px 2px rgba(60, 60, 60, 0.5) !important;}
+div#ft {color:#fff !important; text-align:center !important; display:block !important; margin:10px 10% !important}
+div#ft a {color:#fff !important; margin-right:1.5em !important}
+div#ft ul {display:block !important; text-align:center !important}
+
+table.postform {}  /* dont know yet what to do.. should popup/down through JS  */
+table.postForm td {color:#000 !important; font-weight:normal !important;}
+
+table.postForm td {padding:3px !important}
+ input[name="email"],	
+ input[name="name"],
+ input#recaptcha_response_field,
+ input[name="sub"] {border-radius:5px !important; padding:3px !important; background:#ccc !important;}
+ input[type="submit"] {border-radius:5px !important; color:#fff !important; background-color:#494 !important;border:1px solid #888 !important; font-size:small !important}
+
+tr.rules {display:none}
+
+div#settingsBox {display:none !important } /* need !important to hide it by default, dunnow why, but then it doesn't appear anymore while clicking on 'settings' */
+
+hr {display:none !important}
+
+div.thread {background:#ddd !important; padding:10px !important; overflow:auto !important; padding-left:300px !important ; border-radius: 10px !important;
+margin:20px 10% !important}
+
+div.postContainer {clear:left !important;display:block !important;}
+div.op {background:#fff !important}
+span.summary { float:right !important;padding:0.1em 0.4em !important; font-size:x-small !important; color:#999 !important; font-size:small;margin-right:15px !important;background:#eee !important; border-bottom-left-radius:5px !important; border-bottom-right-radius:5px !important ; display:block !important }
+
+div.replyContainer div.file {margin-top:-1.5em !important }
+div.file {width:280px !important; margin-left:-300px !important;display:block !important;text-align:right !important;float:left !important; }
+span.fileText, span.fileText a {color:#aaa !important}
+div.replyContainer div.fileInfo {background-color:#f8f8f8 !important; margin-right:-20px !important; margin-left:20px !important; padding:0.2em 0.4em 0.2em 0.3em !important;width:auto !important; border-top-left-radius:5px !important; border-bottom-left-radius:5px !important}
+span.fileText span {font-weight:bold; color:#000}
+a.fileThumb img {float:none !important;margin-top:1em !important; box-shadow: 0 0 5px 5px #ccc;border:1px solid #888 !important;
+}
+a.fileThumb {float:none !important}
+
+div.post {overflow:visible !important}
+div.postInfo {background-color:#eee !important; padding:0.3em 0.5em !important; color:#888 !important;  width:auto !important; border-top-left-radius: 5px !important; border-top-right-radius: 5px !important;  }
+div.postInfo img {margin-bottom:-0.3em !important;}
+div.opContainer div.postInfo {font-weight:bold !important;background:#cff}
+div.reply {display:block !important; background:none !important; border: none !important;margin-top:2em !important;}
+div.sideArrows {display:none !important; }
+blockquote.postMessage {padding:10px !important; color:#000 !important; margin:0em !important; background:#fff !important; border-bottom-right-radius: 5px !important;border-bottom-left-radius: 5px !important;}
+pre.prettyprint {font-family: 'monaco', 'consolas', 'courier new' !important; font-size:10px !important; margin-left:1em !important; background:#f8f8f8 !important; padding:5px !important}
+
+
+div.stylechanger {display:none !important}
+div.deleteform {display:none !important}  /* WRAPPER OF THOSE 2 DIVS NEEDS A CLASS. it's currently wrapped in inline floated div, how sucky .   Could be re-enabled if any use, but could better be combined with 'post' form.  Perhaps stuck under the message self.  */
+
+div.pagelist {text-align:center !important; color:#aaa !important; background:#aaa !important ; font-size:x-small !important ; padding:0.3em !important; border-top-left-radius:8px !important;  box-shadow: 0 0 2px 2px rgba(64,64,64,0.5) !important; position:fixed !important; bottom:0 !important; right:0 !important; display:block !important}
+div.pagelist div.pages {margin-top:3px !important}
+div.pagelist a {color:#fff !important}
+div.pagelist a:hover {color:#000 !important}
+a.quoteLink {}  /* would be nice to have icon for quotelink, and perhaps remove the two >> */
