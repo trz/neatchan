@@ -38,6 +38,7 @@ body {background:#888 !important; font-size: 0.7em !important; line-height:120% 
 
 div.globalMessage {display:none;}
 div.postingMode {background:#888 !important; font-size:30px; float:left !important ;  font-weight:bold !important;}
+div.postingMode {background:#888 !important; font-size:30px; font-weight:normal !important; display:none !important}
 div.navLinks {display:none !important}
 
 div.boardBanner {clear:none !important; display:none !important}
