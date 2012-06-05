@@ -25,11 +25,6 @@ table{border-collapse:collapse !important ;border-spacing:0 !important ;}
 
 
 
-
-
-
-
-body {background:#888 !important; font-size: 0.7em !important; line-height:120% !important ; font-family: 'lucida grande', helvetica, arial !important; }
 body {background:#888 !important; font-size: 0.7em !important; line-height:120% !important ; font-family: 'lucida grande', helvetica, arial !important;  }
 #boardNavDesktop, #boardNavDesktopFoot, #boardNavDesktop a , #boardNavDesktopFoot a {color:#fff !important; font-size:x-small !important;}
 #boardNavDesktop,#boardNavDesktopFoot {text-align:center !important}
@@ -38,7 +33,6 @@ body {background:#888 !important; font-size: 0.7em !important; line-height:120% 
 /* first the homepage */
 
 div.globalMessage {display:none;}
-div.postingMode {background:#888 !important; font-size:30px; float:left !important ;  font-weight:bold !important;}
 div.postingMode {background:#888 !important; font-size:30px; font-weight:normal !important; display:none !important}
 div.navLinks {display:none !important}
 
@@ -56,19 +50,16 @@ div#preview-tooltip-ws, div#preview-tooltip-nws {background:#fff !important; pad
 div#ft {color:#fff !important; text-align:center !important; display:block !important; margin:10px 10% !important}
 div#ft a {color:#fff !important; margin-right:1.5em !important}
 div#ft ul {display:block !important; text-align:center !important}
-
-table.postform {}  /* dont know yet what to do.. should popup/down through JS  */
-table.postForm td {color:#000 !important; font-weight:normal !important;}
-
 table.postForm {background-image: url(/postmode.png) top center no-repeat !important ;padding-top:40px !important; border-radius: 5px !important; background:pink !important; margin:10px auto !important; width:500px !important; display:block !important; height:1px !important; overflow:hidden !important; border-bottom:1px solid #000 !important   }  /* dont know yet what to do.. should popup/down through JS  */
+table.postForm:hover {height:auto !important; border-bottom:0px !important}
+table.postForm td {color:#000 !important; font-size:10px !important; font-weight:normal !important;}
+table.postForm textarea {height:100px !important;width:auto !important}
 table.postForm td {padding:3px !important}
+table.postForm input[type="text"] {width:150px !important}
  input[name="email"],	
  input[name="name"],
  input#recaptcha_response_field,
  input[name="sub"] {border-radius:5px !important; padding:3px !important; background:#ccc !important;}
- input[type="submit"] {border-radius:5px !important; color:#fff !important; background-color:#494 !important;border:1px solid #888 !important; font-size:small !important}
-
-tr.rules {display:none}
  input[type="submit"]  {border-radius:3px !important; border:1px solid #6A6 !important; font-size:x-small !important; color:#fff !important;  background:#484 !important}
  table.postForm input[type="submit"] {color:#fff !important; background-color:#494 !important;font-size:small !important; font-weight:bold !important}
 table#recaptcha_table td {padding:0 !important}
@@ -85,7 +76,6 @@ div#settingsBox {display:none !important } /* need !important to hide it by defa
 
 hr {display:none !important}
 
-div.thread {background:#ddd !important; padding:10px !important; overflow:auto !important; padding-left:300px !important ; border-radius: 10px !important;
 div.thread {background:#bbb !important; padding:10px !important; overflow:auto !important; padding-left:300px !important ; border-radius: 10px !important;
 margin:20px 10% !important}
 
@@ -94,14 +84,10 @@ div.op {background:#fff !important}
 span.summary { float:right !important;padding:0.1em 0.4em !important; font-size:x-small !important; color:#999 !important; font-size:small;margin-right:15px !important;background:#eee !important; border-bottom-left-radius:5px !important; border-bottom-right-radius:5px !important ; display:block !important }
 
 div.replyContainer div.file {margin-top:-1.5em !important }
-div.file {width:280px !important; margin-left:-300px !important;display:block !important;text-align:right !important;float:left !important; }
 div.file {width:300px !important; margin-left:-300px !important;display:block !important;text-align:right !important;float:left !important; margin-bottom:5px  !important;}
 span.fileText, span.fileText a {color:#aaa !important}
-div.replyContainer div.fileInfo {background-color:#f8f8f8 !important; margin-right:-20px !important; margin-left:20px !important; padding:0.2em 0.4em 0.2em 0.3em !important;width:auto !important; border-top-left-radius:5px !important; border-bottom-left-radius:5px !important}
 div.fileInfo {margin-top:5px !important; background-color:#eee !important; margin-right:0px !important; margin-left:20px !important; padding:0.2em 0.4em 0.2em 0.3em !important;width:auto !important; border-top-left-radius:5px !important; border-bottom-left-radius:5px !important}
 span.fileText span {font-weight:bold; color:#000}
-a.fileThumb img {float:none !important;margin-top:1em !important; box-shadow: 0 0 5px 5px #ccc;border:1px solid #888 !important;
-}
 a.fileThumb img {float:none !important;margin-top:0 !important; border-bottom-right-radius:3px !important; border-bottom-left-radius:3px !important; margin-right:10px !important}
 a.fileThumb {float:none !important}
 div.expandedImg {z-index:1000 !important}
